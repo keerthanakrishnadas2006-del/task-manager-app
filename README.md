@@ -1,16 +1,24 @@
-# React + Vite
+# Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Full‑stack project with **React (frontend)** and **Express + MySQL (backend)**.
 
-Currently, two official plugins are available:
+## 🚀 Live Links
+- Frontend (Vercel): https://task-manager-app-pkis.vercel.app  
+- Backend (Render): https://task-manager-app-xxxx.onrender.com  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📂 Structure
+- `frontend/` → React + Vite (deployed on Vercel)  
+- `backend/` → Express + MySQL (deployed on Render)  
 
-## React Compiler
+## ✨ Features
+- User signup & login  
+- Task management (create, update, delete)  
+- Contact form with database storage  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- Frontend: React, Vite, Axios  
+- Backend: Node.js, Express, MySQL  
+- Deployment: Vercel + Render  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👩‍💻 Author
+Keerthana Krishnadas, B.Tech CSE, Christ College of Engineering
