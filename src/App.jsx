@@ -6,6 +6,9 @@ import Signup from "./Signup";
 import Login from "./Login";
 import TaskList from "./TaskList";
 import Navbar from "./Navbar";
+import axios from "axios";
+
+axios.defaults.baseURL = "https://task-manager-app-1e2m.onrender.com";
 
 function App() {
   return (
